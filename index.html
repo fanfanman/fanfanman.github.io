@@ -166,14 +166,16 @@
 
                 <div class="project shadow-large">
                     <div class="project-image">
-                        <img src="images/project.jpg" />
+                        <img src="images/mnist_small.jpg" />
                     </div>
                     <!-- End .project-image -->
                     <div class="project-info">
-                        <h3>Image Clustering on Hand-written Digits.</h3>
-                        <p>
-                            Desciption... 
-                        </p>
+                        <h3>Image Recognition on Hand-written Digits.</h3>
+                        <ul style="text-align: left">
+                        <li style="font-size:14px; color:#7e808a">Hand written digits are sometimes difficult to recognize. So I built a Convolution Neural Network with Conv2D, Dropout and BatchNorm layers to detect digit patterns, using TensorFlow based Keras on Jupyter-notebooks.
+                        </li>
+                        <li style="font-size:14px; color:#7e808a">Alternatively, I also used t-SNE technique to try clustering images (since image size is small here). It also turns out to be a good method to cluster image patterns.</li>
+                        </ul>
                         <!--a href="#">View Project</a-->
                     </div>
                     <!-- End .project-info -->
@@ -181,7 +183,7 @@
                 <!-- End .project -->
 
 
-                <div class="project shadow-large">
+                <div class="project shadow-large" style="height:320px">
                     <div class="project-image">
                         <img width="" src="images/teapot_small.jpg" />
                     </div>
@@ -189,7 +191,7 @@
                     <div class="project-info">
                         <h3>3D Graphics Modeling: Objects and Distant Geometry</h3>
                         <ul style="text-align: left">
-                        <li style="font-size:14px; color:#7e808a">This is a Computer Graphics course project, based on C++ on Visual Studio. </li>
+                        <li style="font-size:14px; color:#7e808a">This is a Computer Graphics course project, based on C++ in Visual Studio. </li>
                         <li style="font-size:14px; color:#7e808a">I've built an interactive 3D graphics system consisting of a planar pinhole camera and a view constructor. The objects (teapot) are modeled with triangle mesh that stores shared vertices and triangle connectivity data. Scenes are created by rendering objects' texture and lighting with bilinear interpolation lookup and phong shading model.</li>
                         <li style="font-size:14px; color:#7e808a">I also implemented environment mapping of distant geometry with a cube-map class. This enabled the specular reflection (reflective geometry on teapot's surface) using per-pixel reflected ray lookup.</li>
                         <li style="font-size:14px; color:#7e808a">More advanced fun techniques, such as projective shadow mapping, first-surface refraction, or GPU shaders are also available.</li>
