@@ -788,6 +788,26 @@ footer {
 }
 
 /*
+    ---------------------------
+    ----- i. Course Styles -----
+    ---------------------------
+*/
+
+#Course {
+    padding: 75px 15px;
+    border-bottom: 1px solid $border;
+
+    h2 {
+        color: $heading;
+    }
+
+    p {
+        color: $text;
+        margin: 0;
+    }
+}
+
+/*
     ---------------------------------------
     ----- 11. Optional Section Styles -----
     ---------------------------------------
